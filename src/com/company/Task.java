@@ -1,8 +1,10 @@
 package com.company;
 
+
 public class Task extends Thread{
     private Integer pages;
     private Printer printer;
+
 
     public Task(Integer pages, Printer printer) {
         this.pages = pages;
